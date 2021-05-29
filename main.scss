@@ -1,7 +1,17 @@
+@import './sub', './sub2';
+
 $color: royalblue;
 
 .container {
-  h1 {
-    color: $color;
+  ul {
+    li {
+      font-size: 20px;
+      .name {
+        color: royalblue;
+      }
+      .age {
+        color: orange;
+      }
+    }
   }
 }
